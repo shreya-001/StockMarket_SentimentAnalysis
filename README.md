@@ -55,8 +55,7 @@ Generating realistic pictures, videos, or text has been the traditional usage of
 GANs are used to create artificial yet incredibly realistic stock price data in the context of stock prediction. They are made up of a discriminator and a generator neural network. 
 The discriminator assesses the legitimacy of the generated synthetic stock price data by comparing it with actual market data. The generator is always motivated to increase its accuracy by this adversarial process.
 
-<div class="alert alert-info" role="alert">
-<b> NOTE: </b>
-The secret to GANs' success in stock prediction is their capacity to identify intricate patterns and trends in stock price data, even in extremely erratic markets. GANs may provide future pricing scenarios by being trained on past price data, which improves predicting accuracy.</div>
+> [!NOTE:] 
+> The secret to GANs' success in stock prediction is their capacity to identify intricate patterns and trends in stock price data, even in extremely erratic markets. GANs may provide future pricing scenarios by being trained on past price data, which improves predicting accuracy.
 
 
