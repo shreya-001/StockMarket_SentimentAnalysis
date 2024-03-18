@@ -22,6 +22,7 @@ The tweets in the dataset are associated with the top 25 stock tickers on Yahoo 
 The collection also contains price and volume information from the stock market that is related to the stocks and dates that are referenced in the tweets.
 
 **Dataset Description:**
+
 <u><i>Dataset 1:</i></u>
 
 - Date: The time and date of each tweet's posting are noted in this column.
@@ -39,5 +40,23 @@ The collection also contains price and volume information from the stock market 
 - Adj Close (Adjusted Close): The closing price after adjustments for things like stock splits, dividends, and other business activities is known as the "Adj Close" price. When compared to historical data, it offers a more accurate depiction of the stock's worth over time.
 - Volume: During a trading session on a particular day, the "Volume" feature shows the total number of shares or contracts exchanged. It displays the stock's trading activity and liquidity. A high trade volume may be a sign of rising volatility or investor interest.
 - Stock Name: The name or ticker symbol of the particular stock or financial instrument under observation is usually included in this section. When a dataset includes data on several stocks, it is utilized to distinguish between them.
+
+## Methodology
+**Time Series Analysis**
+A statistical and mathematical method for examining and analyzing data that is gathered or recorded across a succession of discrete time intervals is called time series analysis. It entails taking measurements, observations, or data points at uniformly spaced intervals and modelling and analyzing them. Numerous disciplines, including finance, economics, environmental science, engineering, and more, frequently use time series data.
+
+**GANs, or Generative Adversarial Networks:**
+In 2014, Ian Goodfellow and associates proposed a type of machine learning models known as Generative Adversarial Networks, or GANs.
+Two neural networks, each having a distinct function, make up a GAN:
+- Generator: The main job of the generator network is to create new data samples that are similar to an existing dataset. With random noise as input, it generates data samples that should be identical to the original data. Over time, the generator is educated to become more adept at producing data that is more realistic.
+- Discriminator: This network serves as an adjudicator. Its task is to distinguish between fictitious data samples produced by the generator and actual data samples taken from the training dataset. The discriminator is taught to improve its ability to discern between authentic and fraudulent data.
+
+Generating realistic pictures, videos, or text has been the traditional usage of GANs; however, these days, they are also being employed in finance, more notably in stock price prediction.
+GANs are used to create artificial yet incredibly realistic stock price data in the context of stock prediction. They are made up of a discriminator and a generator neural network. 
+The discriminator assesses the legitimacy of the generated synthetic stock price data by comparing it with actual market data. The generator is always motivated to increase its accuracy by this adversarial process.
+
+<div class="alert alert-info" role="alert">
+<b> NOTE: </b>
+The secret to GANs' success in stock prediction is their capacity to identify intricate patterns and trends in stock price data, even in extremely erratic markets. GANs may provide future pricing scenarios by being trained on past price data, which improves predicting accuracy.</div>
 
 
