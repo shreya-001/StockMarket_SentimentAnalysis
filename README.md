@@ -58,4 +58,7 @@ The discriminator assesses the legitimacy of the generated synthetic stock price
 > [!NOTE] 
 > The secret to GANs' success in stock prediction is their capacity to identify intricate patterns and trends in stock price data, even in extremely erratic markets. GANs may provide future pricing scenarios by being trained on past price data, which improves predicting accuracy.
 
+## Problem Statement
+Is it possible to use sentiment analysis from social media conversations to greatly increase the accuracy of stock price predictions? Our goal is to do this by introducing cutting-edge sentiment analysis methods and breaking new ground in the use of GANs—which have been used for many years in a variety of fields—into the erratic realm of financial markets. Upholding the highest ethical standards will be our compass on our trip.
+
 
